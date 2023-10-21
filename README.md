@@ -10,6 +10,9 @@ curl https://raw.githubusercontent.com/nexryai/super-easy-caddy-installer/main/a
 
 # Edit Caddyfile (default is empty)
 sudo nano /etc/Caddyfile
+
+# Enable and Start daemon
+sudo systemctl enable --now caddy
 ```
 
 ## Example of Caddyfile
